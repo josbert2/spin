@@ -1,0 +1,42 @@
+html, body {
+  height: auto;
+}
+
+body {
+
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.mount svg {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  max-width: 520px;
+}
+
+
+.wrapper-spin{
+  position: fixed;
+  height: 100vh;
+  box-shadow: 9px 2px 20px 2px rgba(0,0,0,0.1);
+  display: flex;
+}
+
+.mount svg{
+background-color: rgb(133, 133, 133);
+
+
+}
+#two-1 path{
+  border: 1px solid #fff;
+  stroke-width: 8;
+  stroke:  #e4e4e4;
+}
+
+#two-0 > path{
+  fill: #212121;
+}
